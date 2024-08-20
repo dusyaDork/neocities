@@ -1,249 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-<title>Page Title</title>
+	<meta charset="UTF-8">
+	<title>HTML Page for Testing CSS</title>
+    
 </head>
-<body style="background-color:pink;">
+<body>
 
-    <!-- Write your comments here -->
-<a id="start" href="#end">jump to the end!</a>
-<p title="paragraph tooltip">My first paragraph.</p>
-<h1 style="
-    background-color:powderblue;
-    color:blue;
-    font-family:courier;
-    font-size:300%;
-    text-align:left;
-    border:2px solid Tomato;
-    padding: 5px;
-    margin: 30px;
-    ">This is a heading</h1>
-<p>This is a <br> paragraph with a line break.</p>
-<pre>
-    My Bonnie lies over the ocean.
-  
-    My Bonnie lies over the sea.
-  
-    My Bonnie lies over the ocean.
-  
-    Oh, bring back my Bonnie to me.
+<pre><code>&lt;style type=&quot;text/css&quot;&gt;
+  selector {
+    property: value
+  }
+&lt;/style&gt;</code>
 </pre>
 
-<hr>
 
-<ul>
-    <li><b>b - bold</b></li>
-    <li><strong>strong - Important text</strong> text</li>
-    <li><i>i - Italic text</i> text</li>
-    <li><em>em - Emphasized text</em> text - screenreaders read it with empathis</li>
-    <li><mark>mark - Marked text</mark> text</li>
-    <li><small>small - Smaller text</small> text </li>
-    <li><del>del - Deleted text</del> text </li>
-    <li><ins>ins - Inserted text</ins> text</li>
-    <li><sub>sub - Subscript text</sub> text</li>
-    <li><sup>sup - Superscript text</sup> text</li>
-</ul>
+<h1>This is 1st level heading</h1>
+<p>This is a test paragraph.</p>
+<h2>This is 2nd level heading</h2>
+<p>This is a test paragraph.</p>
+<h3>This is 3rd level heading</h3>
+<p>This is a test paragraph.</p>
+<h4>This is 4th level heading</h4>
+<p>This is a test paragraph.</p>
+<h5>This is 5th level heading</h5>
+<p>This is a test paragraph.</p>
+<h6>This is 6th level heading</h6>
+<p>This is a test paragraph.</p>
 
-<hr>
+<h2>Basic block level elements</h2>
 
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+<p>This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of <strong>user style sheets</strong>. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements.</p> 
+
+<p>This is another paragraph. <mark>I think it needs to be added that the set of elements tested is not exhaustive in any sense.</mark> I have selected those elements for which it can make sense to write user style sheet rules, in my opinion.</p>
+
+<div>This is a <code>div</code> element. Authors may use such elements instead of paragraph markup for various reasons. (End of <code>div</code>.)</div>
+
+<blockquote>
+	<p>This is a <i>block quotation</i> containing a single paragraph. Well, not quite, since this is not <em>really</em> quoted text, but I hope you understand the point. After all, this page does not use HTML markup very normally anyway.</p>
 </blockquote>
-<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-<address>
-    Written by John Doe.<br>
-    Visit us at:<br>
-    Example.com<br>
-    Box 564, Disneyland<br>
-    USA
-</address>
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-<bdo dir="rtl">This text will be written from right to left</bdo> woah
 
-<hr>
+<p>The following contains links to the Comm-244 home page</p>
 
-<h1 style="font-size:60px;">BIG Heading 1</h1>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
-<hr>
-
-<img src="../materials/afone1.png" title="tooltip text!" alt="alt text!" width="88" height="31">
-<p style="background-image:url('http://placekitten.com/500/500');">
-    this<br>text<br>Supposedly<br>has<br>kitten<br>bg<br>
-    okay no it does not for some reason.
+<p>
+	<a href="http://web.simmons.edu/~grovesd/comm244">Comm-244 Website</a>,
+	<a href="http://web.simmons.edu/~grovesd/comm244/week3">Week 3 page for class</A>
 </p>
-<hr>
-<a href="home.html">this is a link</a>
-<hr>
-<p><a href="https://www.w3schools.com/html/html_tables.asp">i will 100% forget stuff about tables</a></p>
-<table style="border-style: dotted; width:100%">
-    <tr>
-      <th style="width:20%">Person 1</th>
-      <th>Person 2</th>
-      <th>Person 3</th>
-    </tr>
-    <tr>
-      <td style="width:60%; height:100px">Emil</td>
-      <td>Tobias</td>
-      <td>Linus</td>
-    </tr>
-    <tr style="text-align: center;">
-      <td >16</td>
-      <td>14</td>
-      <td>10</td>
-    </tr>
-</table>
-<hr>
-    <table>
-        <tr>
-          <th>Firstname</th>
-          <td>Jill</td>
-          <td>Eve</td>
-        </tr>
-        <tr>
-          <th>Lastname</th>
-          <td>Smith</td>
-          <td>Jackson</td>
-        </tr>
-        <tr>
-          <th>Age</th>
-          <td>94</td>
-          <td>50</td>
-        </tr>
-      </table>
-      <hr>
-      <table>
-        <tr>
-          <th colspan="2">Name</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-      </table>
-      <hr>
-      <table style="width:100%">
-        <caption>Monthly savings</caption>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>February</td>
-          <td>$50</td>
-        </tr>
-      </table>
-<hr>
+
+<h2>Lists</h2>
+
+<p>This is a paragraph before an <strong>unordered</strong> list (<code>ul</code>). Note that the spacing between a paragraph and a list before or after that is hard to tune in a user style sheet. You can't guess which paragraphs are logically related to a list, e.g. as a "list header".</p>
+
 <ul>
-    <li><- ul</li>
-    <li>li</li>
-    <li>li</li>
+	<li> One.</li>
+	<li> Two.</li>
+	<li> Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items.</li>
+	<li> Four. This is the last item in this list Let us terminate the list now without making any more fuss about it.</li>
 </ul>
+
+<p>This is a paragraph before a <strong>ordered</strong> list (<code>ol</code>). Note that the spacing between a paragraph and a list before or after that is hard to tune in a user style sheet. You can't guess which paragraphs are logically related to a list, e.g. as a "list header".</p>
+
 <ol>
-    <li><- ol</li>
-    <li>li</li>
-    <li>li</li>
+  <li> One.</li>
+  <li> Two.</li>
+  <li> Three. Well, probably this list item should be longer. Note that if items are short, lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items. </li>
+  <li> Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it. </li>
 </ol>
+
+<p>This is a paragraph before a <strong>definition</strong> list (<code>dl</code>). In principle, such a list should consist of <em>terms</em> and associated definitions. But many authors use <code>dl</code> elements for fancy "layout" things. Usually the effect is not <em>too</em> bad, if you design user style sheet rules for <code>dl</code> which are suitable for real definition lists.</p>
+
 <dl>
-    <dt>dl w/ dt</dt>
-    <dd>- dd</dd>
-    <dd>- dd</dd>
-    <dd>- dd</dd>
-    <dt>dt</dt>
-    <dd>- dd</dd>
+	<dt> recursion <dt>
+	<dd> see recursion </dd>
+	<dt> recursion, indirect</dt>
+	<dd> see indirect recursion</dd>
+	<dt> indirect recursion</dt>
+	<dd> see recursion, indirect</dd>
+	<dt> term</dt>
+	<dd> a word or other expression taken into specific use in a well-defined meaning, which is often defined rather rigorously, even formally, and may differ quite a lot from an everyday meaning</dd>
 </dl>
-<ul>
-    <li>disc
-      <ul>
-        <li>circle
-            <ul>
-                <li>square
-                    <ul>
-                        <li style="list-style-type:none;">none</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-
-<ol start="50">
-<li>Coffee</li>
-<li>Tea</li>
-<li>Milk</li>
-</ol>
-
-<ol>
-    <li>type 1
-        <ol start="2" type="A">
-            <li>type A
-                <ol start="3" type="a">
-                    <li>type a
-                        <ol start="4" type="I">
-                            <li>type I
-                                <ol start="5" type="i">
-                                    <li>type i</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </li>
-                </ol>
-            </li>
-        </ol>
-    </li>
-</ol>
-<hr>
-<iframe src="../index.html" name="iframe_a" style="border:none; height:500px;width:100%;" title="Iframe Example"></iframe>
-<p><a href="../index.html" target="iframe_a">index</a> | <a href="home.html" target="iframe_a">this page</a></p>
-<hr>
-<table style="border-style: dotted; width:100%">
-  <tr>
-    <th style="width:40%">Path</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>&lt;img src="picture.jpg"&gt;</code></pre></td>
-    <td>file is located in the same folder as the current page</td>
-  </tr>
-  <tr>
-    <td>&lt;img src="images/picture.jpg"&gt;</code></pre></td>
-    <td>file is located in the images folder in the current folder</td>
-  </tr>
-  <tr>
-    <td>&lt;img src="/images/picture.jpg"&gt;</code></pre></td>
-    <td>file is located in the images folder at the root of the current web</td>
-  </tr>
-  <tr>
-    <td>&lt;img src="../picture.jpg"&gt;</code></pre></td>
-    <td>file is located in the folder one level up from the current folder</td>
-  </tr>
-</table>
-<hr>
-<img src="https://www.w3schools.com/html/img_sem_elements.gif">
-<hr>
-for the future me: FOR THE LOVE OF GOD MAKE YOUR WEBSITE <a href="https://www.w3schools.com/html/html_responsive.asp">RESPONSIVE</a>!!!
-<hr>
-<a id="end" href="#start">jump to the start!</a>
 
 </body>
 </html>
