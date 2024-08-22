@@ -1,2 +1,2 @@
 # neocities
-my neocities website !!
+my neocities (and maybe nekoweb) website !!
